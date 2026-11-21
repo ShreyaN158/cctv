@@ -1,0 +1,22 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Uploaded videos
+backend/uploads/
+
+# YOLO training outputs
+runs/
+
+# Downloaded model file
+yolov8s.pt
+
+# Generated CCTV evidence images
+backend/evidence/**/*.jpg
+backend/evidence/**/*.jpeg
+backend/evidence/**/*.png
+backend/evidence/**/*.jsonl
